@@ -13,11 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-       fontFamily:{
+      fontFamily: {
         "Mont": ["Montserrat", "sans-serif"],
-        "right":[ "Righteous", "sans-serif"],
-        "galactus":["Galactus","sans-serif"]
-       },
+        "right": ["Righteous", "sans-serif"],
+        "galactus": ["Galactus", "sans-serif"]
+      },
     },
   },
   plugins: [],
