@@ -55,7 +55,7 @@ export default function Carousel() {
                 <div className="flex w-full h-full  bg-[url(/assets/item2.jpg)] rounded-md bg-cover bg-center bg-no-repeat " />
             </div>
             <div key={3} className="flex w-[500px] h-[388px] pr-[32px]  bg-black">
-                <div className="flex w-full h-full   bg-[url(/assets/item1.jpg)] rounded-md bg-cover bg-center bg-no-repeat " />
+                <div className="flex w-full h-full   bg-[url(/assets/item3.jpg)] rounded-md bg-cover bg-center bg-no-repeat " />
             </div>
         </Slider>
 

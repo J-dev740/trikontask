@@ -23,16 +23,16 @@ const GameDescription: React.FC<props> = (props) => {
             <div className="grid grid-cols-3 w-full md:w-[54%] h-fit flex-wrap grid-flow-row gap-x-[10px] gap-y-[12px]">
                 <div
                     style={{ backgroundImage: `url(/assets/${game?.gameimages[0]})` }}
-                    className="hover:shadow-md hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[335px] col-span-3 bg-center bg-cover bg-no-repeat rounded-[20px]"></div>
+                    className="hover:shadow-md  hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[335px] col-span-3  bg-top bg-cover bg-no-repeat rounded-[20px]"></div>
                 <div
                     style={{ backgroundImage: `url(/assets/${game?.gameimages[1]})` }}
-                    className="hover:shadow-md hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[204px] col-span-1 bg-center bg-cover bg-no-repeat rounded-[20px] "></div>
+                    className="hover:shadow-md hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[204px] col-span-1 bg-top bg-cover bg-no-repeat rounded-[20px] "></div>
                 <div
                     style={{ backgroundImage: `url(/assets/${game?.gameimages[2]})` }}
-                    className="hover:shadow-md hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[204px] col-span-1 bg-center bg-cover bg-no-repeat rounded-[20px] "></div>
+                    className="hover:shadow-md hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[204px] col-span-1 bg-top bg-cover bg-no-repeat rounded-[20px] "></div>
                 <div
                     style={{ backgroundImage: `url(/assets/${game?.gameimages[3]})` }}
-                    className="hover:shadow-md hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[204px] col-span-1 bg-center bg-cover bg-no-repeat rounded-[20px] "></div>
+                    className="hover:shadow-md hover:shadow-green-200 hover:-translate-x-2 hover:-translate-y-2 duration-150 ease-linear flex w-full h-[204px] col-span-1 bg-top bg-cover bg-no-repeat rounded-[20px] "></div>
 
 
 

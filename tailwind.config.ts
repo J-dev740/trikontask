@@ -16,7 +16,7 @@ const config: Config = {
       fontFamily: {
         "Mont": ["Montserrat", "sans-serif"],
         "right": ["Righteous", "sans-serif"],
-        "galactus": ["Galactus", "sans-serif"]
+        "Galactus": ["galactus", "sans"]
       },
     },
   },

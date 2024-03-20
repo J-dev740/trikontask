@@ -10,7 +10,7 @@ function Cta(props: any) {
                         <span className=" border-2 border-b-[#BEF56E] -mb-0 w-[40px] "></span>
                     )
                 }
-                <span className=" font-galactus p-[8px]">EXPLORE A NEW DIMENSION</span>
+                <span className=" font-Galactus text-[15px] p-[8px]">EXPLORE A NEW DIMENSION</span>
             </div>
             <div className="flex w-full text-wrap text-[40px] mt-[16px] font-Mont leading-[52px] font-normal uppercase  text-white ">Ready to unlock your potentials in a world of fun?</div>
             <div

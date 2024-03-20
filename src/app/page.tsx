@@ -93,7 +93,7 @@ export default function Home() {
       listedDate: new Date('2023-09-19'),
       userslength: 4321,
       chain: "ethereum",
-      gameimages: ["f1.jpg", "f2.jpg", "f3.jpg", "f4.jpg"]
+      gameimages: ["a1.jpg", "a2.jpg", "a3.jpg", "a4.jpg"]
 
     },
     {
@@ -108,7 +108,7 @@ export default function Home() {
       listedDate: new Date('2023-09-19'),
       userslength: 4321,
       chain: "ethereum",
-      gameimages: ["g1.jpg", "g2.jpg", "g3.jpg", "g4.jpg"]
+      gameimages: ["b1.jpg", "b2.jpg", "b3.jpg", "b4.jpg"]
 
     },
     {
@@ -123,7 +123,7 @@ export default function Home() {
       listedDate: new Date('2023-09-19'),
       userslength: 4321,
       chain: "ethereum",
-      gameimages: ["h1.jpg", "h2.jpg", "h3.jpg", "h4.jpg"]
+      gameimages: ["c1.jpg", "c2.jpg", "c3.jpg", "c4.jpg"]
 
     },
     {
@@ -142,19 +142,17 @@ export default function Home() {
       gameimages: ["f1.jpg", "f2.jpg", "f3.jpg", "f4.jpg"]
     },
     {
-      // img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgDoAoC251PN1hcwlZ-G8degSgFhO3HDEm3i0O54N2EHBms-eNb7trT-1XBnmNgBfiihA&usqp=CAU",
-      img: 'game5.jpg',
-
-      name: "Call of Duty:VanGuard",
+      img: 'game6.jpg',
+      name: "Valorant",
       pub: "Activision",
       categories: "PS5,PS4",
-      gameid: 5,
+      gameid: 6,
       desc: "For single-player, the game features the return of the plot-driven Story Mode and the traditional form of Towers mode from the previous games, while introducing the addition of the seasonal Invasion mode, an online mode combining fighting mechanics with board game and role-playing game elements.",
       gamecategory: "Fighting Action-adventure",
       listedDate: new Date('2023-09-19'),
       userslength: 4321,
       chain: "ethereum",
-      gameimages: []
+      gameimages: ["h1.jpg", "h2.jpg", "h3.jpg", "h4.jpg"]
     },
   ]);
   const map: Map<Number, gamedes> = new Map()
@@ -254,9 +252,9 @@ export default function Home() {
           </div>
           {/* img */}
           <div
-            className=" relative flex md:w-[60%] w-full h-[483px] bg-[url(/assets/banner1.jpg)] bg-cover bg-no-repeat bg-center ">
-            <div className="flex absolute inset-x-0 h-[10%]  bg-opacity-35 bg-gradient-to-b from-black to-transparent"></div>
-            <div className="flex absolute inset-y-0 w-[10%]  bg-opacity-35 bg-gradient-to-r from-black to-transparent"></div>
+            className=" relative flex md:w-[60%] w-full h-[483px] bg-[url(/assets/banner2.jpg)] rounded-[10px]  bg-cover bg-no-repeat bg-center ">
+            <div className="flex absolute inset-x-0 h-[10%]  bg-opacity-35 bg-gradient-to-b  rounded-[10px] from-slate-700 to-transparent"></div>
+            <div className="flex absolute inset-y-0 w-[10%]  bg-opacity-35 bg-gradient-to-r rounded-[10px] from-slate-800 to-transparent"></div>
             {/* <div className="flex absolute  bottom-0 w-full  h-[5%]  bg-opacity-35 bg-gradient-to-t  from-black to-transparent"></div>
             <div className="flex absolute right-0 w-[5%] h-full  bg-opacity-10 bg-gradient-to-l from-black  to-transparent"></div> */}
 
