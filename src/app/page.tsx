@@ -178,7 +178,7 @@ export default function Home() {
   }
   // setGame(map.get(games[0].gameid));
   return (
-    <main className="flex min-h-screen   container w-full max-w-[1440px] h-[1080px] ring-0 flex-col items-center justify-between  bg-black">
+    <main className="flex min-h-screen   container w-full max-w-[1920px] h-[1080px] ring-0 flex-col items-center justify-between  bg-black">
       <div className="w-full h-fit flex flex-col items-center ring-0">
         {/* carousel part */}
         <div className="flex w-full flex-col mb-8 md:mb-0 md:flex-row h-fit items-start justify-center">
