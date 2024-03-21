@@ -255,8 +255,8 @@ export default function Home() {
             className=" relative flex md:w-[60%] w-full h-[483px] bg-[url(/assets/banner2.jpg)] rounded-[10px]  bg-cover bg-no-repeat bg-center ">
             <div className="flex absolute inset-x-0 h-[10%]  bg-opacity-35 bg-gradient-to-b  rounded-[10px] from-slate-700 to-transparent"></div>
             <div className="flex absolute inset-y-0 w-[10%]  bg-opacity-35 bg-gradient-to-r rounded-[10px] from-slate-800 to-transparent"></div>
-            {/* <div className="flex absolute  bottom-0 w-full  h-[5%]  bg-opacity-35 bg-gradient-to-t  from-black to-transparent"></div>
-            <div className="flex absolute right-0 w-[5%] h-full  bg-opacity-10 bg-gradient-to-l from-black  to-transparent"></div> */}
+            <div className="flex absolute  bottom-0 w-full  h-[5%]  bg-opacity-35 bg-gradient-to-t  from-slate-800 to-transparent"></div>
+            <div className="flex absolute right-0 w-[5%] h-full  bg-opacity-10 bg-gradient-to-l from-slate-800  to-transparent"></div>
 
 
 
